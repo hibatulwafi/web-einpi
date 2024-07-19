@@ -1,26 +1,17 @@
-# Sistem operasi
-.DS_Store          # macOS
-Thumbs.db           # Windows
-
-# Direktori build dan cache
-/node_modules/
-/vendor/
-/build/
-/dist/
-
-# File konfigurasi lokal
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/vendor
 .env
-.env.local
-.env.*.local
-
-# Log files
-*.log
-
-# IDEs and editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# htaccess
-.htaccess
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
